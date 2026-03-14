@@ -1,0 +1,2 @@
+string sensor_name
+geometry_msgs/Point xyz_coordinates

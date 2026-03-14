@@ -1,0 +1,5 @@
+<launch>
+	<rosparam command="load" file="$(find assignment3)/config/myparams.yaml"/>
+	<node pkg="assignment3" type="xyzlocation.py" name="xyzlocation" output="screen"/>
+	<node pkg="assignment3" type="check_distance.py" name="check_distance" output="screen"/>
+</launch>

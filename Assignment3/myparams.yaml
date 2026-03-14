@@ -1,0 +1,7 @@
+# coordinates of the static point near to the initial point
+static_x: 0.1
+static_y: 0.1
+static_z: 100.7
+
+# distance threshold
+min_dist: 2
